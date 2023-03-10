@@ -30,6 +30,10 @@ Seguimos assim até o usuário digitar "sair" quando acontece o fim da aplicaç�
 
 ![image](https://user-images.githubusercontent.com/83782674/224348827-ad0670e0-1322-46a6-88ac-97192aa84d1e.png)
 
+Caso o usuário digite "sair" no início da aplicação, a mesma retornará que a lista está vazia.
+
+foto
+
 ## :wrench: Tecnologias utilizadas
 * NodeJS
 
