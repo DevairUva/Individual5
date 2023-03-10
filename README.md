@@ -10,18 +10,20 @@ Vamos usar o Node para montar um código que vai receber uma lista de propriedad
 
 Segue imagem com exemplo da aplicação funcionando:
 
-Inicialmente a aplicação retorna a seguinte pergunta:
+Inicialmente a aplicação retorna a seguinte mensagem:
 
 ![image](https://user-images.githubusercontent.com/83782674/224346761-5fef91e1-3fa9-465c-8bbc-162588a0f695.png)
 
 O primeiro texto digitado no exemplo é "font-size":
 
 ![image](https://user-images.githubusercontent.com/83782674/224347026-44ae7b7f-c7f2-4634-9756-7c6fed20882f.png)
+
 Recebemos a mensagem de confirmação "Propriedade adicionada" e percebemos que o texto foi incluído ao array.
 
 Em seguida setamos o texto "background-color":
 
 ![image](https://user-images.githubusercontent.com/83782674/224347681-fbc40435-231a-4987-885d-d04c13a4fc86.png)
+
 Percebemos que após receber o texto "background-color" o array já se reordenou de forma correta.
 
 Seguimos assim até o usuário digitar "sair" quando acontece o fim da aplicação e a mesma finalmente apresenta todas as propriedades em ordem alfabética.\n
