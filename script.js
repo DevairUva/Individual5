@@ -1,38 +1,40 @@
+var prompt = require('prompt-sync')();
+
 let lista = [];
 
 do {
   var aux = prompt('Digite a propriedade que você deseja adicionar a lista ou escreva "sair" para apresentar a lista.');
 
   if (aux == 'sair') {
-    alert('Saindo da aplicação.')
+    console.log('Saindo da aplicação.')
   } else if (aux == null || aux == '' || aux == ' ') {
-    alert('Opção inválida!')
+    console.log('Opção inválida!')
   }
   else {
 
     lista.push(aux)
-    alert('Propiedade adicionada.');
+    console.log('Propiedade adicionada.');
     do {
       console.log(lista);
       aux = prompt('Digite a propriedade que você deseja adicionar a lista ou escreva "sair" para apresentar a lista.');
       console.log(aux);
       if (aux == 'sair') {
-        alert('saindo')
+        console.log('saindo')
       } else if (aux == null || aux == '' || aux == ' ') {
-        alert('opção inválida')
+        console.log('opção inválida')
       } else {
         lista.push(aux);
         console.log(lista);
         lista.sort();
-        alert('Propiedade adicionada.');
+        console.log('Propiedade adicionada.');
       }
     } while (aux != 'sair')
   }
 
   if (lista[0] == '' && aux == 'sair') {
-    alert('Lista vazia')
+    console.log('Lista vazia')
   } else {
-    alert(lista)
+    console.log(lista)
   }
 
 } while (aux == null || aux == '' || aux == ' ')
