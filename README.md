@@ -26,7 +26,8 @@ Em seguida setamos o texto "background-color":
 
 Percebemos que após receber o texto "background-color" o array já se reordenou de forma correta.
 
-Seguimos assim até o usuário digitar "sair" quando acontece o fim da aplicação e a mesma finalmente apresenta todas as propriedades em ordem alfabética.\n
+Seguimos assim até o usuário digitar "sair" quando acontece o fim da aplicação e a mesma finalmente apresenta todas as propriedades em ordem alfabética.
+
 ![image](https://user-images.githubusercontent.com/83782674/224348827-ad0670e0-1322-46a6-88ac-97192aa84d1e.png)
 
 ## :wrench: Tecnologias utilizadas
